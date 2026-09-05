@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIH 2026 - Deepfake Detection</title>
+    <link rel="stylesheet" href="ppt1.css">
+</head>
+
+<body>
+
+<div class="presentation">
+
+    <!-- SLIDE 1 -->
+    <section id="slide1" class="slide slide1">
+        <div class="top-row">
+            <header class="header">
+                <div class="title-section">
+                <h1>HACKATHON 2026</h1>
+ </div>
+            </header>
+
+            <div class="sih">
+                <img src="sihq.jpeg" alt="SIH2026">
+                <div class="sih-text">
+                    <span>SMART INDIA</span>
+                    <span>HACKATHON</span>
+                    <span>2026</span>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="subtitle">
+            "Every Soldier Matters:Ensuring Real-Time Health Monitoring and Emergency Support on the Frontline"
+        </h3>
+
+        <div class="main-visual"></div>
+
+        <div class="content">
+
+            <p><b>Problem Statement ID –</b></p>
+
+            <p><b>Problem Statement Title –</b> Real time smart health monitoring system for soldiers</p>
+
+            <p>
+                <b>Theme –</b>Defence and Biotech Integrated
+                <span></span>
+            </p>
+
+            <p>
+                <b>PS Category –</b>Hardware
+            
+            </p>
+
+            <p>
+                <b>Team ID –</b>SIH26112
+                
+            </p>
+
+            <p>
+                <b>Team Name –</b>Creathink
+                
+            </p>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- SLIDE 2 -->
+    <section id="slide2" class="slide slide2">
+
+        <header>
+            <div class="team">CREATHINK</div>
+            <h1>IDEA TITLE</h1>
+            
+        </header>
+
+        <div class="sih">
+            <img src="sihq.jpeg" alt="SIH2026">
+            <div class="sih-text">
+                <span>SMART INDIA</span>
+                <span>HACKATHON</span>
+                <span>2026</span>
+            </div>
+        </div>
+ 
+        <h2>❖ Proposed Solution</h2>
+
+        <div class="slide2-content">
+            <div class="slide2-left">
+                <div class="solution-grid">
+
+            <div class="box solution-box">
+                <h3>EXPLANATION OF THE SOLUTION</h3>
+                <ul>
+  <li>Health Monitoring: Tracks heart rate, SpO2, temperature, and movement.</li>
+<li> Smart Positioning: Uses GNSS + IMU + UWB for reliable location.</li>
+ <li>Resilient Communication: Uses LoRa and stores data during network loss.</li>
+ <li>Emergency Alert: Detects critical conditions and sends SOS + location + health data to the command center.</li>
+                    
+                </ul>
+            </div>
+
+            <div class="box solution-box">
+                <h3>ADDRESSING THE PROBLEM</h3>
+                <ul>
+  <li> Health risk → Multi-sensor monitoring detects abnormal vital signs early.</li>
+ <li>GPS failure →GNSS + IMU + UWB provides more reliable positioning.</li>
+ <li>Network failure →LoRa enables long-range communication with local data storage.</li>
+ <li>Emergency →Automatic detection + SOS sends the soldier's location and health status to the command center.</li>
+                </ul>
+            </div>
+
+            <div class="box solution-box">
+                <h3>INNOVATION</h3>
+                <ul>
+                   <li>Multi-sensor fusion: Combines GNSS + IMU + UWB instead of relying only on GPS.</li>
+ <li>Resilient communication: Uses LoRa + store-and-forward to maintain data delivery during network outages.</li>
+ <li>Edge intelligence: STM32U575 analyzes health and movement data locally for faster emergency detection.</li>
+ <li>Fail-safe design: Includes battery monitoring, low-power mode, and emergency backup strategy to keep critical functions running during failures.</li>
+                </ul>
+            </div>
+
+            <div class="box solution-box">
+                <h3>UNIQUENESS</h3>
+                <ul>
+                 <li>Multi-sensor fusion.</li>   
+<li>GNSS stops working.
+IMU + UWB gives local tracking only.
+It tracks movement of a soldier and relative distance between soldiers.
+Data is stored locally and shared within squad.
+When one soldier goes out of jamming zone, 
+he sends all relative positions + his live location to basecamp via LoRa.</li>
+<li>AES-256 encryption for sensor data
+Public key infrastructure (PKI) for device authentication
+TLS 1.3 for data between device and server
+LoRaWAN AES-128 or custom AES-256 for battlefield links
+HMAC or digital signatures to protect against tampering</li>
+
+ 
+                </ul>
+            </div>
+
+                </div>
+            </div>
+            <div class="slide2-right">
+                <img src="bd5.jpeg" alt="Solution visual">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SLIDE 3 -->
+    <section id="slide3" class="slide slide3">
+
+        <header>
+            <div class="team">CREATHINK</div>
+            <h1>TECHNICAL APPROACH</h1>
+            
+        </header>
+
+        <div class="sih">
+            <img src="sihq.jpeg" alt="SIH2026">
+            <div class="sih-text">
+                <span>SMART INDIA</span>
+                <span>HACKATHON</span>
+                <span>2026</span>
+            </div>
+        </div>
+
+       
+
+        <div class="tech-layout">
+            <div class="image-panel">
+                <img src="tc.jpeg" alt="Technical architecture diagram">
+            </div>
+
+            
+        </div>
+        <a href="https://ps-1-d.vercel.app/"><h1>DASHBOARD:-//ps-1-d.vercel.app/</h1></a>
+
+    </section>
+
+
+    <!-- SLIDE 4 -->
+    <section id="slide4" class="slide slide4">
+
+        <header>
+            <div class="team">CREATHINK</div>
+            <h1>FEASIBILITY AND VIABILITY</h1>
+            
+        </header>
+
+        <div class="sih">
+            <img src="sihq.jpeg" alt="SIH2026">
+            <div class="sih-text">
+                <span>SMART INDIA</span>
+                <span>HACKATHON</span>
+                <span>2026</span>
+            </div>
+        </div>
+
+        <div class="two-column">
+
+            <div>
+                <h2>✓ Technical Feasibility</h2>
+
+                <ul>
+                    <li>STM32U575 provides a 160 MHz Arm Cortex-M33</li>
+                    <li>Up to 2 MB Flash and 786 KB SRAM</li>
+                    <li>Supports ECG/PPG/temperature/IMU sensing</li>
+                    <li>Low-power Stop mode</li>
+                    <li>DMA and LPBAM</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>⚠ Market Viability</h2>
+
+                <ul>
+                    <li>Modular architecture for rapid customization</li>
+                    <li>Commercially available sensor and radio modules</li>
+                    <li>Scalable manufacturing and cost-effective BOM</li>
+                    <li>Clear path from wellness/readiness monitoring to validated medical applications</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>✅ Deployment Feasibility</h2>
+
+                <ul>
+                    <li>Prototype with wearable and tactical hub variants</li>
+                    <li>Field trials in realistic conditions</li>
+                    <li>Secure firmware updates and device management</li>
+                    <li>Supply-chain planning and long-term availability</li>
+                    <li>Certification planning (EMC, Safety, Cybersecurity, Medical pathway)</li>
+                </ul>
+            </div>
+
+        </div>
+        <br>
+        <h2>POTENTIAL CHALLENGES & RISKS</h2>
+        <h3>- Communication Failure: LoRa/GNSS performance can degrade due to terrain, 
+            obstacles, or interference.</h3>
+        <h3>- Battery Limitation: Multiple sensors and wireless modules can increase 
+            power consumption.</h3>
+        <h3>- Positioning Errors:IMU drift and UWB/ GNSS inaccuracies can reduce location accuracy.</h3>
+        <h3>- Harsh Environment: Heat, rain, dust, and physical impacts may affect the wearable.</h3>
+        <h3>- False Alerts: Sensor noise or abnormal readings may trigger unnecessary emergency alerts.</h3>
+<br>
+<h2>STRATEGIES TO OVERCOME CHALLENGES</h2>
+<h3>- Communication failure → Use LoRa + store-and-forward with multiple 
+    communication paths where possible.</h3>
+<h3>- Battery limitation →Use low-power modes,
+adaptive sensor sampling, and battery monitoring.</h3>
+<h3>- Positioning errors → Combine GNSS + IMU + UWB* using sensor-fusion algorithms.</h3>
+<h3>- Harsh conditions →Use a rugged, waterproof enclosure and protected connectors.</h3>
+<h3>- False alerts → Use multi-sensor confirmation + edge intelligence before 
+    triggering an emergency alert.</h3>
+    <br>
+    <h2>ANTI-JAMMING COMMUNICATION STRATEGY</h2>
+    <h3> FHSS: Rapidly changes the communication frequency 
+        to make sustained interference more difficult.</h3>
+    <h3>- Directional Antenna: Focuses the radio signal toward the intended gateway, 
+        reducing exposure to interference from other directions.</h3>
+    <h3>- Fallback & Storage: If communication is temporarily lost, 
+        store critical data locally and transmit it when the link recovers.</h3>
+    </section>
+
+
+    <!-- SLIDE 5 -->
+    <section id="slide5" class="slide slide5">
+
+        <header>
+            <div class="team">CREATHINK</div>
+            <h1>IMPACT AND BENEFITS</h1>
+            
+        </header>
+
+        <div class="sih">
+            <img src="sihq.jpeg" alt="SIH2026">
+            <div class="sih-text">
+                <span>SMART INDIA</span>
+                <span>HACKATHON</span>
+                <span>2026</span>
+            </div>
+        </div>
+
+        <div class="impact">
+
+            <div class="impact-card">
+                <div class="icon">🛡️</div>
+                <h1>Health & Safety Benefits</h1>
+                 <p>- Improved Soldier Safety: Continuous monitoring helps detect health emergencies early.</p>
+<p>- Faster Rescue: Sends the soldier's location and health status to the command center
+     during emergencies.</p>
+<p>- Reliable Tracking: GNSS + IMU + UWB improves positioning when GNSS is unreliable.</p>
+<p>- Better Battlefield Communication: LoRa and offline data storage reduce dependence 
+    on cellular networks.</p>
+            </div>
+
+            <div class="impact-card">
+                <div class="icon">🔍</div>
+                <h1>Social & Economics Benefits</h1>
+                <p>- Saves Lives: Faster detection and rescue of injured soldiers.</p>
+                <p>- Improves Soldier Safety:Continuous health and location monitoring.</p>
+                <p>- Reduces Rescue Costs: Helps locate soldiers faster, reducing search time and resources.</p>
+                <p>- Cost-Effective: Uses low-power, scalable technologies that can be deployed across large teams.</p>
+                <p>- Supports Families & Society: Reduces preventable casualties and improves confidence in soldier safety.</p>
+
+            </div>
+
+            <div class="impact-card">
+                <div class="icon">⚡</div>
+                <h1>Operational Impacts</h1>
+
+                <h3>Real-Time Situational Awareness</h3>
+                <p>Live location tracking of every soldier in GPS-denied and GPS-available areas via GNSS + IMU + UWB fusion.<br>
+                Command center gets fixed position on map instantly via LoRa.</p>
+
+                <h3>Faster Casualty Response</h3>
+                <p>Auto-detection of abnormal vitals (HR, SpO2, temperature, fall).<br>
+                Emergency alert with exact coordinates in 5 seconds.<br>
+                Reduces search and rescue time from hours to minutes.</p>
+
+                <h3>Mission Efficiency</h3>
+                <p>Better troop coordination and movement planning.<br>
+                Geofencing alerts for restricted or danger zones.</p>
+            </div>
+
+            <div class="impact-card">
+                <div class="icon">🌐</div>
+                <h1>Medical & Evacuation Impact</h1>
+                <p> - Triage Prioritization: Command knows whose vitals are critical →
+                     rescue most critical first</p>
+<p>- Golden Hour Saved: Exact FIXED POSITION reduces helicopter /
+     medical team search time by >60% </p>
+<p>- Remote Diagnosis:Doctor at base can see ECG/Temp before soldier 
+reaches hospital</p>
+<p>- Reduces Frostbite / Heatstroke Deaths:Early temperature anomaly alerts
+                </p>
+            </div>
+
+            <div class="impact-card">
+                <div class="icon">📡</div>
+                <h1>Environmental Benefits</h1>
+                <p>- *Lower Medical Waste –Continuous monitoring can reduce unnecessary tests and repeated diagnostic
+                     procedures, helping to minimize waste.</p>
+<p>-  Energy-Efficient Healthcare – Edge-based processing allows health data to
+ be analyzed locally, reducing continuous data transmission and associated 
+ network energy consumption.</p>
+<p>- Less E-Waste Through Efficient Design – Using low-power microcontrollers and sensors 
+can reduce energy consumption and support longer device operating life.</p>
+                
+            </div>
+
+        </div>
+
+    
+
+    </section>
+
+
+    <!-- SLIDE 6 -->
+    <section id="slide6" class="slide slide6">
+
+        <header>
+            <div class="team">CREATHINK</div>
+            <h1>RESEARCH AND REFERENCES</h1>
+            
+        </header>
+
+        <div class="sih">
+            <img src="sihq.jpeg" alt="SIH2026">
+            <div class="sih-text">
+                <span>SMART INDIA</span>
+                <span>HACKATHON</span>
+                <span>2026</span>
+            </div>
+        </div>
+
+        <div class="references">
+
+            <h2>📚 Research Areas</h2>
+
+            <ul>
+                <li>Google Scholar  </li>
+                <li>Elsevier</li>
+                <li>Science direct</li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <h2>🔗 Reference Resources</h2>
+
+            <div class="reference-box">
+                <p>• </p>
+                <p>•</p>
+                <p>•</p>
+                <p>• </p>
+                <p>•</p>
+            </div>
+
+            <div class="final">
+                <h2>CREATHINK</h2>
+                <p>
+                    AI • Computer Vision • Deep Learning • Digital Safety
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- Navigation -->
+<div class="navigation">
+    <a href="#slide1">1</a>
+    <a href="#slide2">2</a>
+    <a href="#slide3">3</a>
+    <a href="#slide4">4</a>
+    <a href="#slide5">5</a>
+    <a href="#slide6">6</a>
+</div>
+
+</body>
+</html>
